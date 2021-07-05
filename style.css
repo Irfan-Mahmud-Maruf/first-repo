@@ -38,6 +38,7 @@ h1 {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+  margin-bottom: 100px;
 }
 .dream-content {
   width: 60%;
@@ -50,4 +51,36 @@ h1 {
 }
 .dream-image img {
   width: 100%;
+}
+.card-section {
+  display: flex;
+  background-image: url(images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-bottom: 200px;
+}
+.card {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 2.5%;
+  height: 300px;
+  padding: 5px 10px 5px 40px;
+  box-shadow: 5px 8px 30px gray;
+}
+.card h1 {
+  font-size: 40px;
+}
+#full {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#baby {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  color: gray;
 }
