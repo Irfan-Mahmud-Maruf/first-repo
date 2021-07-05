@@ -9,21 +9,22 @@ h1 {
 .orange-color {
   color: orange;
 }
-#header {
+.container {
   display: flex;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
-.header-content {
+.content {
   width: 50%;
   padding-left: 10%;
 }
-.header-img {
+.image {
   width: 50%;
   padding-left: 10%;
 }
-.header-img img {
-  width: 70%;
+.image img {
+  width: 80%;
 }
 .Header-button {
   text-decoration: none;
@@ -31,4 +32,22 @@ h1 {
   border-radius: 25px;
   padding: 5px 25px;
   background-image: linear-gradient(to right, orange, tomato);
+}
+.container-1 {
+  display: flex;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.dream-content {
+  width: 60%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.dream-image {
+  width: 40%;
+  padding-left: 10%;
+}
+.dream-image img {
+  width: 100%;
 }
